@@ -117,8 +117,6 @@
       flex-direction: row;
       flex-wrap: wrap;
       gap: 2em;
-    }
-    .layout {
       margin-top: 2em;
     }
   }
