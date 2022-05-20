@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url(./img/frame4.svg);
+    background-color: hsl(0, 1%, 14%);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .canvas {
+    width: 75vmin;
+    height: 75vmin;
+    background: hsl(0, 0%, 100%);
+  }
+  
+  #btn {       
+    background: #111;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    padding: 0.75em 2em;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #rose {
+    background-color: #FF3B8D;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+  #amber {
+    background-color:#926700;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #emerald {
+    background-color: #008147;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+  #powder {
+    background-color: #007987;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
+  }
+  #violet {
+    background-color:  #794AFF;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
+  }
+  #magenta {
+    background-color: #CA00B6;
+    color: white;
+    border: none;
+    padding: 0.5em 0.5em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+
+  }
+
+
+ 
+  .layout {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5em;
+    justify-content: center;
+  }
+
+
+  .sidnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+
+  @media (max-width: 720px) {
+    .sidnav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2em;
+    }
+  }
